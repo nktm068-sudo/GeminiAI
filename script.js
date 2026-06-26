@@ -15,7 +15,7 @@ const LINKS_CONFIG = {
 // =============================================================
 
 // Твой секретный ключ, зашифрованный задом наперед от роботов GitHub
-const REVERSED_API_KEY = "QnWzleCTk_p3UQEycHXlbOAaJeYhhhSInhQHGsJe0c3bgIK6NR8bA.QA"; 
+const REVERSED_API_KEY = "Q94dpRQPLeLS6laj8YpM0EtfyVpgRQ5iuwXBcycxIxn0L6NR8bA.QA";
 const GEMINI_API_KEY = REVERSED_API_KEY.split("").reverse().join("");
 
 // Вспомогательная функция для быстрой очистки строк от любых пробелов
