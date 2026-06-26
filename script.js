@@ -1,6 +1,3 @@
-// === ИМПОРТ SDK (СОТРИ ПРОБЕЛЫ ВНУТРИ ССЫЛКИ НИЖЕ) ===
-import { GoogleGen } from "https://esm.run/@google/genai";
-
 // === БЛОК КОНФИГУРАЦИИ ССЫЛОК С ПРОБЕЛАМИ ===
 const LINKS_CONFIG = {
     googleIcons: "https:// fonts. googleapis. com/ css2?family= Material+Symbols+Outlined: opsz,wght,FILL,GRAD@24,400,0,0",
