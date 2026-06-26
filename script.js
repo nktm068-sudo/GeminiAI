@@ -1,5 +1,5 @@
 // === ИМПОРТ SDK (СОТРИ ПРОБЕЛЫ ВНУТРИ ССЫЛКИ НИЖЕ) ===
-import { GoogleGen } from "https:// esm. run/ @google/ genai";
+import { GoogleGen } from "https://esm.run/@google/genai";
 
 // === БЛОК КОНФИГУРАЦИИ ССЫЛОК С ПРОБЕЛАМИ ===
 const LINKS_CONFIG = {
@@ -12,7 +12,7 @@ const REVERSED_API_KEY = "QnWzleCTk_p3UQEycHXlbOAaJeYhhhSInhQHGsJe0c3bgIK6NR8bA.
 
 // Восстанавливаем ключ в памяти браузера при старте страницы
 const GEMINI_API_KEY = REVERSED_API_KEY.split("").reverse().join("");
-const ai = new GoogleGen({ apiKey: GEMINI_API_KEY });
+const ai = new GoogleGen({ key: GEMINI_API_KEY });
 
 // Функция автоматической очистки внутренних ссылок от пробелов
 function cleanAndInjectLinks() {
